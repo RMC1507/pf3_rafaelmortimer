@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title"> Calculadora de Investimento</div>
+
+        <div class="input">
+          <input placeholder="Nome" type="text" id="nome" name="nome" required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="Investimento inicial?" type="number" id='investimento' name="investimento"required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="juros" type="number" id='juros' name="juros"aplicacao"required="required" >
+        </div>
+
+        <div class="input">
+          <input  placeholder="Por quanto tempo deseja investir?"  type="number" id='tempo' name="tempo"required="required">
+        </div>
+        
+        <button id='calcular'>Calcular</button>
+
+        <div class="result" id='resultado'></div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
